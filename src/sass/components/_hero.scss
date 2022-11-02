@@ -24,51 +24,49 @@
         width: 250px;
       }
 
-      .content {
-        h1 {
-          font-size: 32px;
-          font-weight: 700;
-        }
+      h1 {
+        font-size: 32px;
+        font-weight: 700;
+      }
 
-        .subtitle {
-          font-size: 16px;
-          font-weight: 600;
+      .subtitle {
+        font-size: 16px;
+        font-weight: 600;
 
-        }
+      }
 
-        .lead {
-          font-size: 16px;
-          line-height: 24px;
-        }
+      .lead {
+        font-size: 16px;
+        line-height: 24px;
+      }
 
-        .btn {
-          padding: 10px 15px;
-          font-size: 16px;
-          width: 152px;
-          font-weight: 600;
-          margin: 5px 0;
+      .btn {
+        padding: 10px 15px;
+        font-size: 16px;
+        width: 152px;
+        font-weight: 600;
+        margin: 5px 0;
 
-          &.btn-primary {
-            border: 1px solid $primary;
-            color: $primary;
-            background-color: #fff;
-            margin-right: 20px;
+        &.btn-primary {
+          border: 1px solid $primary;
+          color: $primary;
+          background-color: #fff;
+          margin-right: 20px;
 
-            &:hover {
-              background-color: $primary;
-              color: #fff;
-            }
-          }
-
-          &.btn-secondary {
+          &:hover {
             background-color: $primary;
             color: #fff;
-            border: 1px solid $primary;
+          }
+        }
 
-            &:hover {
-              background-color: #fff;
-              color: $primary;
-            }
+        &.btn-secondary {
+          background-color: $primary;
+          color: #fff;
+          border: 1px solid $primary;
+
+          &:hover {
+            background-color: #fff;
+            color: $primary;
           }
         }
       }
@@ -96,19 +94,17 @@
           width: 265px;
         }
 
-        .content {
-          h1 {
-            font-size: 48px;
-          }
+        h1 {
+          font-size: 48px;
+        }
 
-          .subtitle {
-            font-size: 22px;
-            line-height: 26px;
-          }
+        .subtitle {
+          font-size: 22px;
+          line-height: 26px;
+        }
 
-          .btn {
-            font-size: 18px;
-          }
+        .btn {
+          font-size: 18px;
         }
       }
     }
