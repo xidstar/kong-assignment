@@ -1,0 +1,118 @@
+.component.hero {
+  position: relative;
+  max-width: 100vw;
+  background-image: linear-gradient(to right, #fff 22%, #dce7f7);
+  padding: 0;
+  overflow: hidden;
+
+  .bg-img {
+    position: relative;
+    width: 100vw;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+
+    .row {
+      width: 100%;
+      padding-bottom: 50px;
+
+      img {
+        width: 250px;
+      }
+
+      .content {
+        h1 {
+          font-size: 32px;
+          font-weight: 700;
+        }
+
+        .subtitle {
+          font-size: 16px;
+          font-weight: 600;
+
+        }
+
+        .lead {
+          font-size: 16px;
+          line-height: 24px;
+        }
+
+        .btn {
+          padding: 10px 15px;
+          font-size: 16px;
+          width: 152px;
+          font-weight: 600;
+          margin: 5px 0;
+
+          &.btn-primary {
+            border: 1px solid $primary;
+            color: $primary;
+            background-color: #fff;
+            margin-right: 20px;
+
+            &:hover {
+              background-color: $primary;
+              color: #fff;
+            }
+          }
+
+          &.btn-secondary {
+            background-color: $primary;
+            color: #fff;
+            border: 1px solid $primary;
+
+            &:hover {
+              background-color: #fff;
+              color: $primary;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    height: 667px;
+
+    .bg-img {
+      position: absolute;
+      width: 50%;
+      right: 0;
+      top: 0;
+      max-width: 900px;
+    }
+
+    .container {
+      flex-direction: row;
+
+      .row {
+        width: 50%;
+
+        img {
+          width: 265px;
+        }
+
+        .content {
+          h1 {
+            font-size: 48px;
+          }
+
+          .subtitle {
+            font-size: 22px;
+            line-height: 26px;
+          }
+
+          .btn {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@import "./media-content";
