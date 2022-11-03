@@ -46,7 +46,7 @@ Building files can be done as follows:
     npm run build
 
 ### Unit Testing
-Jest is the prefered JavaScript Testing Framework tool. Test files can be found under the 'test' folder.
+Jest has been implemented as the JavaScript Testing Framework. Test files can be found under the 'test' folder.
 
 Running tests can be done as follows:
 
@@ -56,7 +56,7 @@ Running tests can be done as follows:
 
 * The project uses the Bootstrap v4 library, therefore default bootstrap classes have been used in the implementation.
 
-* Mobile and Tablet design comps not provided, hence stacked the hero componenents on smaller screen sizes for better user experience.
+* Mobile and Tablet design comps not provided, hence the hero componenents are on a stacked layout on smaller screen sizes for better user experience.
 
 
 ## Assumptions

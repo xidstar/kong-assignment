@@ -1,5 +1,5 @@
 {
-  "name": "webpack-sass-bootstrap",
+  "name": "kong-assignment",
   "version": "1.0.0",
   "description": "Modified version of Webpack-Sass-Bootstrap Boilerplate",
   "main": "index.js",
@@ -45,10 +45,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shaminmeerankutty/webpack-sass-bootstrap-boilerplate.git"
+    "url": "https://github.com/xidstar/kong-assignment"
   },
   "bugs": {
-    "url": "https://github.com/shaminmeerankutty/webpack-sass-bootstrap-boilerplate/issues"
+    "url": "https://github.com/xidstar/kong-assignment/issues"
   },
-  "homepage": "https://github.com/shaminmeerankutty/webpack-sass-bootstrap-boilerplate#readme"
+  "homepage": "https://github.com/xidstar/kong-assignment#readme"
 }
