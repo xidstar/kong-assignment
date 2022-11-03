@@ -49,7 +49,7 @@ Building files can be done as follows:
 
 * The project uses the Bootstrap v4 library, therefore default bootstrap classes have been used in the implementation.
 
-* The hero section breakpoint has moved up from the typical tablet(md) to desktop(lg) for better user experience. The text and hero-image look squished otherwise. 
+* Mobile and Tablet design comps not provided, hence stacked the hero componenents on smaller screen sizes for better user experience.
 
 
 ### Assumptions
