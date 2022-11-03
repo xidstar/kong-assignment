@@ -15,6 +15,7 @@ Based on the pdf/png that is included in the provided project zip file make the 
 - jQuery 3.5.1
 - Popper.js 
 - Webpack Dev Server
+- Jest
 
 
 ## Getting Started
@@ -44,19 +45,25 @@ Building files can be done as follows:
 
     npm run build
 
+### Unit Testing
+Jest is the prefered JavaScript Testing Framework tool. Test files can be found under the 'test' folder.
 
-### Design Considerations
+Running tests can be done as follows:
+
+    npm test
+
+## Design Considerations
 
 * The project uses the Bootstrap v4 library, therefore default bootstrap classes have been used in the implementation.
 
 * Mobile and Tablet design comps not provided, hence stacked the hero componenents on smaller screen sizes for better user experience.
 
 
-### Assumptions
+## Assumptions
 * A performance-optimized hosting solution will be used.
 
 
-### Tradeoffs
+## Tradeoffs
 
 
 # Licence
