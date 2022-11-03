@@ -23,6 +23,8 @@ function submitViaAjax(formData) {
   console.log(json);
 }
 
+
+//Navbar transition on scroll
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
