@@ -1,9 +1,9 @@
 
 ## Description
 Based on the pdf/png that is included in the provided project zip file make the following changes:
-  ○ Updated hero section
-  ○ Menu fixed to the top of the page
-  ○ UTM query parameters added to the newsletter menu form
+  - Updated hero section
+  - Menu fixed to the top of the page
+  - UTM query parameters added to the newsletter menu form
 * Must include the use of SCSS and JavaScript
 * The end result must be responsive (desktop, tablet, and mobile)
 
@@ -56,7 +56,7 @@ Running tests can be done as follows:
 
 * The project uses the Bootstrap v4 library, therefore default bootstrap classes have been used in the implementation.
 
-* Mobile and Tablet design comps not provided, hence the hero componenents are on a stacked layout on smaller screen sizes for better user experience.
+* Mobile and Tablet design comps not provided.
 
 
 ## Assumptions
@@ -64,7 +64,7 @@ Running tests can be done as follows:
 
 
 ## Tradeoffs
-* Opted not to install UglifyJS as the JS file was relatively small to begin with. 
+* UglifyJS plugin not used to minify the Javascript file(s). 
 
 # Licence
 Code released under the [MIT License](LICENSE.md).
