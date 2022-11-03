@@ -22,3 +22,16 @@ function submitViaAjax(formData) {
   var json = JSON.stringify(object);
   console.log(json);
 }
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  const navbar = document.querySelector(".navbar");
+  navbar.style.transition = "all .4s ease-in-out";
+
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    navbar.style.padding = "30px 10px";
+  } else {
+    navbar.style.padding = "8px 0px";
+  }
+}

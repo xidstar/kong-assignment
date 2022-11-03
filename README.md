@@ -64,7 +64,7 @@ Running tests can be done as follows:
 
 
 ## Tradeoffs
-
+* Opted not to install UglifyJS as the JS file was relatively small to begin with. 
 
 # Licence
 Code released under the [MIT License](LICENSE.md).
