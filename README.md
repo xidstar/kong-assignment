@@ -28,6 +28,10 @@ for installing dependencies, starting the appropriate scripts, and building your
 Clone the repo:
 
     git clone https://github.com/xidstar/kong-assignment
+    
+Navigate to the project folder:
+
+    cd kong-assignment
 
 Install all packages and dependencies required for this project:
 
@@ -46,7 +50,7 @@ Building files can be done as follows:
     npm run build
 
 ### Unit Testing
-Jest has been implemented as the JavaScript Testing Framework. Test files can be found under the 'test' folder.
+Jest has been implemented as the JavaScript Testing Framework. Test files can be found under the 'src/test' folder.
 
 Running tests can be done as follows:
 
