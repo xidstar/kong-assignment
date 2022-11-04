@@ -68,7 +68,7 @@ Running tests can be done as follows:
 
 
 ## Tradeoffs
-* UglifyJS plugin not used to minify the Javascript file(s). 
+* Opted for lossless(without loss of quality) image optimization, compromising on image size since the page is not image heavy.
 
 # Licence
 Code released under the [MIT License](LICENSE.md).
